@@ -1,0 +1,12 @@
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\bin\Debug\Hotel.DesktopUI.exe.config
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\bin\Debug\Hotel.DesktopUI.exe
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\bin\Debug\Hotel.DesktopUI.pdb
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.MainForm.resources
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.Properties.Resources.resources
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.csproj.GenerateResource.Cache
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.exe
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.pdb
+D:\C#\WCF Reservations hotels room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.csprojResolveAssemblyReference.cache
+D:\C#\WCF_Reservations_hotels_room\Client\Hotel\Hotel.DesktopUI\bin\Debug\Hotel.DesktopUI.exe.config
+D:\C#\WCF_Reservations_hotels_room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.exe
+D:\C#\WCF_Reservations_hotels_room\Client\Hotel\Hotel.DesktopUI\obj\Debug\Hotel.DesktopUI.pdb
