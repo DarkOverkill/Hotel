@@ -17,5 +17,8 @@ namespace Hotel.Service.DTOs
 
         [DataMember]
         public int Quantity { get; set; }
+        
+        [DataMember]
+        public bool Reserved { get; set; }
     }
 }

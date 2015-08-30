@@ -3,3 +3,7 @@ D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Entity\bin\Debug\Hotel.En
 D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Entity\obj\Debug\Hotel.Entity.dll
 D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Entity\obj\Debug\Hotel.Entity.pdb
 D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Entity\obj\Debug\Hotel.Entity.csprojResolveAssemblyReference.cache
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Entity\bin\Debug\Hotel.Entity.dll
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Entity\bin\Debug\Hotel.Entity.pdb
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Entity\obj\Debug\Hotel.Entity.dll
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Entity\obj\Debug\Hotel.Entity.pdb

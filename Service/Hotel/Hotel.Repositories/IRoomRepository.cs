@@ -10,5 +10,6 @@ namespace Hotel.Repositories
     public interface IRoomRepository
     {
         List<Room> GetRooms();
+        List<Room> GetAvailableRooms();
     }
 }

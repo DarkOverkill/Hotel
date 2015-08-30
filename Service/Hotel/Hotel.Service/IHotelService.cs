@@ -17,5 +17,14 @@ namespace Hotel.Service
 
         [OperationContract]
         RoomDTO[] GetRooms();
+
+        [OperationContract]
+        RoomDTO[] GetAvailableRooms();
+
+        [OperationContract]
+        GuestDTO[] GetGuests();
+
+        [OperationContract]
+        void RoomReservation(DateTime arrival, DateTime departure, string guestNameSurname, int roomNumber);
     }
 }

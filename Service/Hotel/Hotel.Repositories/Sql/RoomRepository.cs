@@ -52,6 +52,7 @@ namespace Hotel.Repositories.Sql
                             room.Id = (int)reader["Id"];
                             room.Number = (int)reader["Number"];
                             room.Quantity = (int)reader["RoomQuantity"];
+                            room.Reserved = (bool)reader["Reserved"];
                             rooms.Add(room);
                         }
                         return rooms;
@@ -60,6 +61,34 @@ namespace Hotel.Repositories.Sql
             }
         }
 
+        public List<Room> GetAvailableRooms()
+        {
+            using (var connection = new SqlConnection(this._connectionSting))
+            {
+                connection.Open();
+                using (var command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = SELECT_ROOMS;
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        List<Room> rooms = new List<Room>();
+                        while (reader.Read())
+                        {
+                            Room room = new Room();
+                            room.Id = (int)reader["Id"];
+                            room.Number = (int)reader["Number"];
+                            room.Quantity = (int)reader["RoomQuantity"];
+                            room.Reserved = (bool)reader["Reserved"];
+                            if(room.Reserved != true)
+                                rooms.Add(room);
+                        }
+                        return rooms;
+                    }
+                }
+            }
+        }
         #endregion
     }
 }

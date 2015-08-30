@@ -18,7 +18,7 @@ namespace Hotel.Service
     {
         public string Registered()
         {
-            return "Room succesful reserved!!";
+            return "Success";
         }
         public RoomDTO[] GetRooms()
         {
@@ -32,10 +32,52 @@ namespace Hotel.Service
 
             foreach (var room  in rooms)
             {
-                RoomDTOs.Add(new RoomDTO() { Id = room.Id, Number = room.Number, Quantity = room.Quantity});
+                RoomDTOs.Add(new RoomDTO() { Id = room.Id, Number = room.Number, Quantity = room.Quantity, Reserved = room.Reserved });
             }
 
             return RoomDTOs.ToArray();
         }
+
+        public RoomDTO[] GetAvailableRooms()
+        {
+
+            string connectionString = ConfigurationManager.ConnectionStrings["HotelDatabase"].ConnectionString;
+            IRoomRepository repository = new RoomRepository(connectionString);
+
+            var rooms = repository.GetAvailableRooms();
+
+            var RoomDTOs = new List<RoomDTO>();
+
+            foreach (var room in rooms)
+            {
+                RoomDTOs.Add(new RoomDTO() { Id = room.Id, Number = room.Number, Quantity = room.Quantity, Reserved = room.Reserved });
+            }
+
+            return RoomDTOs.ToArray();
+        }
+
+        public GuestDTO[] GetGuests()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["HotelDatabase"].ConnectionString;
+            IGuestRepository repository = new GuestRepository(connectionString);
+
+            var guests = repository.GetGuests();
+
+            var GuestDTOs = new List<GuestDTO>();
+
+            foreach(var guest in guests)
+            {
+                GuestDTOs.Add(new GuestDTO() { Id = guest.Id, Name = guest.Name, Surname = guest.Surname, Email = guest.Email, Phone = guest.Phone });
+            }
+            return GuestDTOs.ToArray();
+        }
+
+        public void RoomReservation(DateTime arrival, DateTime departure, string guestNameSurname, int roomNumber)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["HotelDatabase"].ConnectionString;
+            IReservationRepository repository = new ReservationRepository(connectionString);
+            repository.RoomReservation(arrival, departure, guestNameSurname, roomNumber);
+        }
+
     }
 }

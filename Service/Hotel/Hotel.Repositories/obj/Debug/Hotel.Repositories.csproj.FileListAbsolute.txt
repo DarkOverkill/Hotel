@@ -5,3 +5,10 @@ D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Repositories\bin\Debug\Ho
 D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Repositories\bin\Debug\Hotel.Entity.pdb
 D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Repositories\obj\Debug\Hotel.Repositories.dll
 D:\C#\WCF Reservations hotels room\Service\Hotel\Hotel.Repositories\obj\Debug\Hotel.Repositories.pdb
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\bin\Debug\Hotel.Repositories.dll
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\bin\Debug\Hotel.Repositories.pdb
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\bin\Debug\Hotel.Entity.dll
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\bin\Debug\Hotel.Entity.pdb
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\obj\Debug\Hotel.Repositories.csprojResolveAssemblyReference.cache
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\obj\Debug\Hotel.Repositories.dll
+D:\C#\WCF_Reservations_hotels_room\Service\Hotel\Hotel.Repositories\obj\Debug\Hotel.Repositories.pdb
